@@ -919,7 +919,7 @@ footer .submit {
         flex-direction: column;
     }
     .wrapper {
-        background-position: right;
+        background-position: center;
     }
     /*----------------wrapper---------*/
     /*----------------list---------*/
@@ -949,6 +949,16 @@ footer .submit {
     }
     .menu h3 {
         font-size: 15px;
+    }
+    button {
+        padding: 20px 45px;
+    }
+    .blog span {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .blog .img {
+        height: 120px;
     }
     /*----------------footer---------*/
 }

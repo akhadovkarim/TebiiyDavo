@@ -738,6 +738,10 @@ button:hover {
     color: #4D8B55;
 }
 
+.social_media a {
+    margin: 0;
+}
+
 
 /*-----------blog---------*/
 

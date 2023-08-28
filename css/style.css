@@ -155,7 +155,7 @@ p {
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .home::after {
@@ -882,6 +882,10 @@ footer .submit {
 /*-----------footer---------*/
 
 @media only screen and (max-width:768px) {
+    .home img,
+    .home::after {
+        height: 80vh;
+    }
     /*----------------head---------*/
     .opentime .left,
     .wrapper .right,
@@ -892,10 +896,16 @@ footer .submit {
         font-size: 40px;
         line-height: 80px;
     }
+    .proudcts1 .img img {
+        height: 100px;
+    }
+    .products2 .img img {
+        height: 150px;
+    }
     /*----------------head---------*/
     /*----------------menu---------*/
     .menu {
-        margin-top: 50%;
+        margin-top: 30%;
     }
     /*----------------menu---------*/
     /*----------------wrapper---------*/
@@ -931,20 +941,14 @@ footer .submit {
     footer .content {
         padding: 10px;
     }
-    button {
-        padding: 15px 60px;
-    }
-    .logo img {
-        width: 20%;
-    }
     .social_media a {
         margin: 0;
     }
-    .home img {
-        height: 75vh;
+    .logo img {
+        width: 25%;
     }
-    .home::after {
-        height: 75vh;
+    .menu h3 {
+        font-size: 15px;
     }
     /*----------------footer---------*/
 }
